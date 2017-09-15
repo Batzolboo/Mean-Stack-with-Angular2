@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Batzolboo/Mean-Stack-with-Angular2#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "mongoose": "^4.11.11"
   }
