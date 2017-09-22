@@ -79,7 +79,7 @@ const blogSchema = new Schema({
     createdAt: { type: Date, default: Date.now() },
     likes: { type: Number, default: 0 },
     likedBy: { type: Array },
-    disLikes: { type: Number, default: 0 },
+    dislikes: { type: Number, default: 0 },
     dislikedBy: { type: Array },
     comments: [
         {
